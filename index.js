@@ -13,5 +13,5 @@ module.exports = function(n) {
     return 'buzz';
   }
 
-  return '' + n;
+  return ''; // code upaded for failing test ( '' + n )
 };
